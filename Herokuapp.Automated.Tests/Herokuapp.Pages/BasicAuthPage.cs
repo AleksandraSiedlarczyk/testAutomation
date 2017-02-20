@@ -5,7 +5,6 @@ namespace Herokuapp.Pages
 {
     public class BasicAuthPage : BasePage
     {
-
         [FindsBy(How = How.CssSelector, Using = ".example p")]
         public IWebElement Message { get; set; }        
 

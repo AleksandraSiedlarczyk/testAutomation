@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace Herokuapp.Acceptance.Tests.Steps
 {
     [Binding]
-    public class SetupSteps
+    public class SetupSteps : TechTalk.SpecFlow.Steps
     {
         public static IWebDriver WebDriver;
 

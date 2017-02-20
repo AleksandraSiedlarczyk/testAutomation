@@ -58,9 +58,27 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BasicAuth.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\DynamicControls.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DynamicControls.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\DynamicLoading.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DynamicLoading.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\SortableDataTables.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SortableDataTables.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\BasicAuthSteps.cs" />
+    <Compile Include="Steps\DynamicControlsSteps.cs" />
+    <Compile Include="Steps\DynamicLoadingSteps.cs" />
     <Compile Include="Steps\SetupSteps.cs" />
+    <Compile Include="Steps\SortableDataTablesSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Herokuapp.Pages\Herokuapp.Pages.csproj">
@@ -73,6 +91,18 @@
     <None Include="Features\BasicAuth.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>BasicAuth.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\DynamicControls.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DynamicControls.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\DynamicLoading.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DynamicLoading.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\SortableDataTables.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SortableDataTables.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

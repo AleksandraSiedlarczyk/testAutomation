@@ -49,10 +49,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseLoadingPage.cs" />
     <Compile Include="BasePage.cs" />
     <Compile Include="BasicAuthPage.cs" />
+    <Compile Include="DynamicControlsPage.cs" />
+    <Compile Include="DynamicLoadingPage.cs" />
     <Compile Include="HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SortableTablesPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
