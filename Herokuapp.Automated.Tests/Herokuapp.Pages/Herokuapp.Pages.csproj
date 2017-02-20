@@ -54,8 +54,10 @@
     <Compile Include="BasicAuthPage.cs" />
     <Compile Include="DynamicControlsPage.cs" />
     <Compile Include="DynamicLoadingPage.cs" />
+    <Compile Include="FormAuthPage.cs" />
     <Compile Include="HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecureAreaPage.cs" />
     <Compile Include="SortableTablesPage.cs" />
   </ItemGroup>
   <ItemGroup>

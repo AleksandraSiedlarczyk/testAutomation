@@ -68,6 +68,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DynamicLoading.feature</DependentUpon>
     </Compile>
+    <Compile Include="Features\FormAuth.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormAuth.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\SortableDataTables.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,6 +82,7 @@
     <Compile Include="Steps\BasicAuthSteps.cs" />
     <Compile Include="Steps\DynamicControlsSteps.cs" />
     <Compile Include="Steps\DynamicLoadingSteps.cs" />
+    <Compile Include="Steps\FormAuthSteps.cs" />
     <Compile Include="Steps\SetupSteps.cs" />
     <Compile Include="Steps\SortableDataTablesSteps.cs" />
   </ItemGroup>
@@ -99,6 +105,10 @@
     <None Include="Features\DynamicLoading.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DynamicLoading.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\FormAuth.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>FormAuth.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\SortableDataTables.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
