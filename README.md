@@ -10,5 +10,5 @@
  
  or
  
-1. Build solution to discover tests.
-2. Open Test Explorer and run selected scenario.
+Build solution to discover tests.
+Open Test Explorer and run selected scenario.
