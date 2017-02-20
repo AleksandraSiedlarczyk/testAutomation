@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herokuapp.Acceptance.Tests", "Herokuapp.Acceptance.Tests\Herokuapp.Acceptance.Tests.csproj", "{3A08E592-D6CF-4FC7-A788-E6CA0762952D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Herokuapp.Pages", "Herokuapp.Pages\Herokuapp.Pages.csproj", "{D254B0B1-D0C2-42EC-98B2-8BD174C71A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A08E592-D6CF-4FC7-A788-E6CA0762952D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A08E592-D6CF-4FC7-A788-E6CA0762952D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A08E592-D6CF-4FC7-A788-E6CA0762952D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A08E592-D6CF-4FC7-A788-E6CA0762952D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D254B0B1-D0C2-42EC-98B2-8BD174C71A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D254B0B1-D0C2-42EC-98B2-8BD174C71A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D254B0B1-D0C2-42EC-98B2-8BD174C71A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D254B0B1-D0C2-42EC-98B2-8BD174C71A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
