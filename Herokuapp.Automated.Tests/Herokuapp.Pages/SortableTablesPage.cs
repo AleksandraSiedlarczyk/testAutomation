@@ -23,7 +23,7 @@ namespace Herokuapp.Pages
 
         public void Navigate()
         {
-            _webDriver.Navigate().GoToUrl(URL);
+            WebDriver.Navigate().GoToUrl(URL);
         }
 
         public string GetEmailOf(string name)

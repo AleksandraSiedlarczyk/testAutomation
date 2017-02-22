@@ -5,11 +5,11 @@ namespace Herokuapp.Pages
 {
     public class BasePage
     {
-        protected static IWebDriver _webDriver;
+        protected static IWebDriver WebDriver;
 
         public BasePage(IWebDriver driver)
         {
-            _webDriver = driver;
+            WebDriver = driver;
             PageFactory.InitElements(driver, this);
         }
 

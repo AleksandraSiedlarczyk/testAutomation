@@ -7,13 +7,12 @@ namespace Herokuapp.Acceptance.Tests.Steps
     [Binding]
     public class BasicAuthSteps : SetupSteps
     {
-        private HomePage _homePage = new HomePage(WebDriver);
         private BasicAuthPage _basicAuthPage = new BasicAuthPage(WebDriver);
 
         [When(@"I log in with correct data")]
         public void WhenILogInWithCorrectData()
         {
-            _homePage.LoginCorrectly();
+            _basicAuthPage.LoginCorrectly();
         }        
         
         [Then(@"a success message is displayed")]

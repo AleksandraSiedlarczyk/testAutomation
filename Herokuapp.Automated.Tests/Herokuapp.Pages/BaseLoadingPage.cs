@@ -21,7 +21,7 @@ namespace Herokuapp.Pages
 
         public void WaitTillLoadingEnd()
         {
-            WebDriverWait wait = new WebDriverWait(_webDriver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(WebDriver, TimeSpan.FromSeconds(30));
             wait.Until(driver => Loading.GetAttribute("style").Equals("display: none;"));
         }
 

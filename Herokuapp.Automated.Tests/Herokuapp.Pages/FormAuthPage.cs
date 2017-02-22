@@ -26,7 +26,7 @@ namespace Herokuapp.Pages
 
         public void Navigate()
         {
-            _webDriver.Navigate().GoToUrl(URL);
+            WebDriver.Navigate().GoToUrl(URL);
         }
 
         public void Login(string login, string password)
